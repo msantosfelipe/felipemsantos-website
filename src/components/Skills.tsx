@@ -3,33 +3,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: [
-        { name: 'Python', level: 95 },
-        { name: 'Java', level: 90 },
-        { name: 'Node.js', level: 88 },
-        { name: 'Go', level: 85 },
-        { name: 'TypeScript', level: 82 },
-      ],
+      skills: ['Python', 'Java', 'Node.js', 'Go', 'TypeScript'],
     },
     {
       title: 'Frameworks & Tools',
-      skills: [
-        { name: 'Django', level: 92 },
-        { name: 'Spring Boot', level: 88 },
-        { name: 'Express.js', level: 85 },
-        { name: 'FastAPI', level: 90 },
-        { name: 'Docker', level: 87 },
-      ],
+      skills: ['Django', 'Spring Boot', 'Express.js', 'FastAPI', 'Docker'],
     },
     {
       title: 'Databases & Cloud',
-      skills: [
-        { name: 'PostgreSQL', level: 93 },
-        { name: 'MongoDB', level: 85 },
-        { name: 'Redis', level: 88 },
-        { name: 'AWS', level: 90 },
-        { name: 'Kubernetes', level: 82 },
-      ],
+      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'AWS', 'Kubernetes'],
     },
   ];
 
@@ -54,20 +36,14 @@ const Skills = () => {
               <h3 className="text-xl font-semibold text-white mb-6 text-center">
                 {category.title}
               </h3>
-              <div className="space-y-4">
+              <div className="flex flex-wrap gap-3 justify-center">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex}>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-300 font-medium">{skill.name}</span>
-                      <span className="text-gray-400">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-gray-700 rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 h-2 rounded-full transition-all duration-1000 ease-out"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+                  <span 
+                    key={skillIndex}
+                    className="px-4 py-2 bg-gradient-to-r from-blue-600/20 to-purple-600/20 text-gray-300 rounded-full border border-gray-600 hover:border-gray-500 transition-colors duration-300"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>
