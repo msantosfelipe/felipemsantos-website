@@ -39,7 +39,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="text-xl font-bold text-gradient">
-            Alex Johnson
+          Felipe Maia Santos
           </div>
 
           {/* Desktop Navigation */}

@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Hi, I'm{' '}
-              <span className="text-gradient">Alex Johnson</span>
+              <span className="text-gradient">Felipe Maia Santos</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
               Backend Developer specializing in scalable systems, APIs, and cloud architecture.

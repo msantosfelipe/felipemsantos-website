@@ -1,3 +1,7 @@
+# Personal website - made with Lovable
+
+https://msantosfelipe.github.io/felipemsantos-website/
+
 # Welcome to your Lovable project
 
 ## Project info
