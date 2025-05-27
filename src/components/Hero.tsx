@@ -1,11 +1,13 @@
 
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Rss, Instagram, Download } from 'lucide-react';
 
 const Hero = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:hello@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/msantosfelipe', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/fmaiasantos', label: 'LinkedIn' },
+    { icon: Rss, href: 'https://medium.com/@msantosfelipe', label: 'Medium' },
+    { icon: Instagram, href: 'https://www.instagram.com/felipems.ssa', label: 'Instagram' },
+    { icon: Mail, href: 'mailto:felipe.maiasantos@yahoo.com.br', label: 'Email' },
   ];
 
   const handleDownloadResume = () => {
@@ -30,9 +32,12 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Hi, I'm{' '}
+              Hi, My name is{' '}
               <span className="text-gradient">Felipe Maia Santos</span>
             </h1>
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
+              PAGE UNDER CONSTRUCTION
+              </p>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
               Backend Developer specializing in scalable systems, APIs, and cloud architecture.
               I build robust solutions that power modern applications.

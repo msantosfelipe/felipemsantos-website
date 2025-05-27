@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, InstagramIcon, Linkedin, Mail, Rss } from 'lucide-react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -46,7 +46,7 @@ const Contact = () => {
             
             <div className="space-y-6">
               <a 
-                href="mailto:hello@example.com" 
+                href="mailto:felipe.maiasantos@yahoo.com.br" 
                 className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
               >
                 <div className="p-3 bg-gray-800 rounded-lg mr-4 group-hover:bg-gray-700 transition-colors duration-200">
@@ -54,12 +54,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div className="text-gray-400">hello@example.com</div>
+                  <div className="text-gray-400">mailto:felipe.maiasantos@yahoo.com.br</div>
                 </div>
               </a>
               
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/fmaiasantos" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
@@ -74,7 +74,7 @@ const Contact = () => {
               </a>
               
               <a 
-                href="https://github.com" 
+                href="https://github.com/msantosfelipe" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
@@ -85,6 +85,36 @@ const Contact = () => {
                 <div>
                   <div className="font-semibold">GitHub</div>
                   <div className="text-gray-400">Check out my code</div>
+                </div>
+              </a>
+
+              <a 
+                href="https://medium.com/@msantosfelipe" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
+              >
+                <div className="p-3 bg-gray-800 rounded-lg mr-4 group-hover:bg-gray-700 transition-colors duration-200">
+                  <Rss size={24} />
+                </div>
+                <div>
+                  <div className="font-semibold">Medium</div>
+                  <div className="text-gray-400">Check out my articles</div>
+                </div>
+              </a>
+
+              <a 
+                href="https://www.instagram.com/felipems.ssa" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
+              >
+                <div className="p-3 bg-gray-800 rounded-lg mr-4 group-hover:bg-gray-700 transition-colors duration-200">
+                  <Instagram size={24} />
+                </div>
+                <div>
+                  <div className="font-semibold">Instagram</div>
+                  <div className="text-gray-400">Check out my photos</div>
                 </div>
               </a>
             </div>

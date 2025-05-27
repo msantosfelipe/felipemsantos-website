@@ -30,12 +30,12 @@ const Experience = () => {
       ]
     },
     {
-      company: 'WebSolutions LLC',
-      position: 'Junior Backend Developer',
-      location: 'Dallas, TX',
-      period: '2019 - 2020',
+      company: 'Capgemini',
+      position: 'Java Developer',
+      location: 'Salvador, BA - Brazil',
+      period: 'feb 2015 - jul 2017',
       description: 'Started my career building web applications and learning industry best practices. Worked on database design, API development, and system integration projects. Gained expertise in cloud technologies and DevOps practices.',
-      technologies: ['Python', 'Django', 'PostgreSQL', 'AWS EC2', 'Git'],
+      technologies: ['Java', 'JSF'],
       achievements: [
         'Delivered 15+ web applications',
         'Learned cloud deployment best practices',
