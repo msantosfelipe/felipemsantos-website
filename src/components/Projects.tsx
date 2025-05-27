@@ -4,29 +4,14 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-commerce API Platform',
-      description: 'A scalable microservices-based e-commerce API built with Node.js and PostgreSQL, handling 10M+ requests daily.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop',
-      technologies: ['Node.js', 'PostgreSQL', 'Redis', 'Docker', 'AWS'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
+      title: 'Alexa Skill - Tricolor de Aço',
+      description: 'Alexa Skill about the Brazilian football team Esporte Clube Bahia. One of the highest-ranked Brazilian sports skills',
+      image: 'https://m.media-amazon.com/images/I/81-uhfHvHVL.png',
+      technologies: ['Node.js'],
+      githubUrl: 'https://github.com/msantosfelipe/tricolorDeAco',
+      liveUrl: 'https://www.amazon.com.br/Felipe-Maia-Santos-Tricolor-A%C3%A7o/dp/B08CY3G76R/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PBQKT6JN4FHK&dib=eyJ2IjoiMSJ9.efdTIkKD6AKrDYdxRuTFqw.AVvPHyw1BE3VJMreIRnwfvQTnlZ35DqBkOc5tEGRy6Q&dib_tag=se&keywords=tricolor+de+a%C3%A7o&qid=1748386609&s=alexa-skills&sprefix=tricolor+de+a%C3%A7%C3%B5%2Calexa-skills%2C179&sr=1-1',
     },
-    {
-      title: 'Real-time Analytics Engine',
-      description: 'High-performance data processing system using Python and Apache Kafka for real-time analytics and reporting.',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      technologies: ['Python', 'Apache Kafka', 'ClickHouse', 'Docker', 'Kubernetes'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-    },
-    {
-      title: 'DevOps Automation Suite',
-      description: 'Complete CI/CD pipeline automation with infrastructure as code, reducing deployment time by 80%.',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
-      technologies: ['Go', 'Terraform', 'Jenkins', 'AWS', 'Prometheus'],
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
-    },
+
   ];
 
   return (
@@ -36,7 +21,7 @@ const Projects = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my backend development skills
+            Here are some of my recent projects that showcase my development skills
           </p>
         </div>
 

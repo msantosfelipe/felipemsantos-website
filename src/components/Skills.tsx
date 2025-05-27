@@ -3,15 +3,65 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['Python', 'Java', 'Node.js', 'Go', 'TypeScript'],
+      skills: ['Java', 'Go (Golang)', 'Kotlin', 'Python', 'NodeJS', 'JavaScript', 'TypeScript'],
     },
     {
-      title: 'Frameworks & Tools',
-      skills: ['Django', 'Spring Boot', 'Express.js', 'FastAPI', 'Docker'],
+      title: 'Frameworks',
+      skills: ['Spring Boot', 'Micronaut', 'Apache Camel', 'Angular (2, 4, 5)', 'JUnit', 'Mockito', 'Jasmine', 'Karma'],
     },
     {
-      title: 'Databases & Cloud',
-      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'AWS', 'Kubernetes'],
+      title: 'Databases',
+      skills: [
+        'MySQL',
+        'PostgreSQL',
+        'MongoDB',
+        'DB2',
+        'Redis',
+      ],
+    },
+    {
+      title: 'Cloud Services',
+      skills: [
+        'AWS S3', 
+        'AWS Lambda', 
+        'AWS API Gateway', 
+        'AWS SQS', 
+        'AWS SNS', 
+        'AWS EventBridge', 
+        'AWS Kinesis', 
+        'AWS CloudWatch',
+        'AWS CodePipeline', 
+        'AWS RDS', 
+        'AWS DocumentDB', 
+        'AWS DynamoDB', 
+        'AWS ElasticCache',
+      ],
+    },
+    {
+      title: 'Observability & Monitoring',
+      skills: [
+        'Grafana',
+        'Prometheus',
+        'Dynatrace',
+        'Splunk',
+        'Datadog',
+        'ElasticSearch / OpenSearch / Kibana',
+        'Sentry',
+        'AWS CloudWatch',
+      ],
+    },
+    {
+      title: 'Other Tools',
+      skills: [
+        'Docker',
+        'Kubernetes',
+        'Rancher',
+        'Openshift',
+        'Apache JMeter',
+        'Locust',
+        'Terraform',
+        'Git',
+      ],
     },
   ];
 
@@ -22,7 +72,7 @@ const Skills = () => {
           <h2 className="text-4xl font-bold text-white mb-4">Technical Skills</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Here are the technologies and tools I work with to build robust backend systems
+            Here are the technologies and tools I work with to build robust systems
           </p>
         </div>
 

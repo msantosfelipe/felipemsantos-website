@@ -13,10 +13,10 @@ const About = () => {
             <div className="gradient-border">
               <div className="gradient-border-inner p-8">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-                  Passionate Backend Developer
+                  Passionate Software Developer
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  With over 5 years of experience in backend development, I specialize in building 
+                  With over 10 years of experience in software development, I specialize in building 
                   scalable, high-performance systems that can handle millions of requests. My expertise 
                   spans across multiple programming languages and frameworks.
                 </p>
@@ -36,20 +36,12 @@ const About = () => {
           <div className="animate-fade-in">
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
                 <div className="text-gray-600">Projects Completed</div>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="text-3xl font-bold text-purple-600 mb-2">5+</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">9+</div>
                 <div className="text-gray-600">Years Experience</div>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="text-3xl font-bold text-indigo-600 mb-2">99.9%</div>
-                <div className="text-gray-600">Uptime Achieved</div>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="text-3xl font-bold text-cyan-600 mb-2">24/7</div>
-                <div className="text-gray-600">Support Provided</div>
               </div>
             </div>
           </div>

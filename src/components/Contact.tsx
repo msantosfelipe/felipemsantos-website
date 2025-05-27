@@ -121,6 +121,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
+{/*
           <div className="animate-fade-in">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -179,6 +180,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
+*/}
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ const Hero = () => {
     // Replace with your actual resume file path
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'Alex_Johnson_Resume.pdf';
+    link.download = 'Felipe_Maia_Santos_Resume.pdf';
     link.click();
   };
 
@@ -35,9 +35,6 @@ const Hero = () => {
               Hi, My name is{' '}
               <span className="text-gradient">Felipe Maia Santos</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              PAGE UNDER CONSTRUCTION
-              </p>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
               Backend Developer specializing in scalable systems, APIs, and cloud architecture.
               I build robust solutions that power modern applications.
@@ -87,7 +84,9 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-600/20 to-purple-600/20 flex items-center justify-center border border-gray-700">
                 {/* Replace this div with your actual image */}
                 <div className="w-72 h-72 rounded-full bg-gray-800 flex items-center justify-center text-gray-400">
-                  <span className="text-lg font-medium">Your Photo Here</span>
+                  <span className="text-lg font-medium">
+                    {/* <img src="profile.jpeg"/> */}
+                    </span>
                 </div>
               </div>
               {/* Decorative elements */}
