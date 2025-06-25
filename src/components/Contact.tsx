@@ -1,5 +1,5 @@
 
-import { Github, Instagram, InstagramIcon, Linkedin, Mail, Rss } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, Rss } from 'lucide-react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div className="text-gray-400">mailto:felipe.maiasantos@yahoo.com.br</div>
+                  <div className="text-gray-400">Send an email</div>
                 </div>
               </a>
               
@@ -104,17 +104,17 @@ const Contact = () => {
               </a>
 
               <a 
-                href="https://www.instagram.com/felipems.ssa" 
+                href="http://wa.me/5511992522386" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-300 hover:text-white transition-colors duration-200 group"
               >
                 <div className="p-3 bg-gray-800 rounded-lg mr-4 group-hover:bg-gray-700 transition-colors duration-200">
-                  <Instagram size={24} />
+                  <Phone size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold">Instagram</div>
-                  <div className="text-gray-400">Check out my photos</div>
+                  <div className="font-semibold">WhatsApp</div>
+                  <div className="text-gray-400">Send me a message</div>
                 </div>
               </a>
             </div>

@@ -1,12 +1,12 @@
 
-import { Github, Linkedin, Mail, Rss, Instagram, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Rss, Download, Phone } from 'lucide-react';
 
 const Hero = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/msantosfelipe', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/fmaiasantos', label: 'LinkedIn' },
     { icon: Rss, href: 'https://medium.com/@msantosfelipe', label: 'Medium' },
-    { icon: Instagram, href: 'https://www.instagram.com/felipems.ssa', label: 'Instagram' },
+    { icon: Phone, href: 'http://wa.me/5511992522386', label: 'WhatsApp' },
     { icon: Mail, href: 'mailto:felipe.maiasantos@yahoo.com.br', label: 'Email' },
   ];
 

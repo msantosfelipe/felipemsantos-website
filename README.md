@@ -1,6 +1,11 @@
 # Personal website - made with Lovable
 
-https://msantosfelipe.github.io/felipemsantos-website/
+https://felipemsantos.com.br/
+
+
+- `npm run dev`
+- `npm run deploy`
+
 
 # Welcome to your Lovable project
 
