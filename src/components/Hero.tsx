@@ -13,8 +13,9 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Replace with your actual resume file path
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Felipe_Maia_Santos_Resume.pdf';
+    link.href = 'https://www.dropbox.com/scl/fi/44yxoejmnjgzk2w2kmnb5/Felipe-Maia-Santos-Resume.pdf?rlkey=5znup6innpwgmqezlczafrhlx&st=tr8lntbo&dl=0';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
     link.click();
   };
 
@@ -32,12 +33,12 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Hi, My name is{' '}
+              Hi, I am{' '}
               <span className="text-gradient">Felipe Maia Santos</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              Backend Developer specializing in scalable systems, APIs, and cloud architecture.
-              I build robust solutions that power modern applications.
+            Backend developer with over a decade of experience building scalable systems and APIs using Java, Kotlin, Go, Python, and other languages.
+            Skilled in cloud architecture and containerization. Currently focused on AI-driven solutions, working with worldwide teams to deliver robust, high-performance software.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12">

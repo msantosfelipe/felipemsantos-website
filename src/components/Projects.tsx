@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Alexa Skill - Tricolor de Aço',
-      description: 'Alexa Skill about the Brazilian football team Esporte Clube Bahia. One of the highest-ranked Brazilian sports skills',
+      description: 'Alexa Skill about the Brazilian football team Esporte Clube Bahia. This app is one of the highest-ranked Brazilian sports Alexa Skills',
       image: 'https://m.media-amazon.com/images/I/81-uhfHvHVL.png',
       technologies: ['Node.js'],
       githubUrl: 'https://github.com/msantosfelipe/tricolorDeAco',
@@ -21,7 +21,7 @@ const Projects = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my development skills
+            Here are some of my open projects that showcase my development skills
           </p>
         </div>
 
